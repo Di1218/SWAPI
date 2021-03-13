@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Swapi Test</th></tr>
+<tr><td><a href="#t0">Swapi</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27,517</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Swapi Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Swapi &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">swapi_tests.Search_for_Char_or_Planet</td><td><a href="#m0">TC_8_SearchFor_char_or_planet_InvalidInput</a></td><td rowspan="1">1615674138504</td><td rowspan="1">762</td></tr><tr><th colspan="4">Swapi &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">swapi_tests.All_StarWars_Characters</td><td><a href="#m1">TC_01_All_StarWars_char_validInput</a></td><td rowspan="1">1615674130592</td><td rowspan="1">3175</td></tr><tr class="passedeven"><td><a href="#m2">TC_02_All_StarWars_char_InvalidInput</a></td><td rowspan="1">1615674133773</td><td rowspan="1">851</td></tr><tr class="passedeven"><td><a href="#m3">TC_03_All_StarWars_char_NullInput</a></td><td rowspan="1">1615674134632</td><td rowspan="1">684</td></tr><tr class="passedodd"><td rowspan="3">swapi_tests.Functional_Tests</td><td><a href="#m4">search_for_a_char_Invaliddata</a></td><td rowspan="1">1615674145594</td><td rowspan="1">375</td></tr><tr class="passedodd"><td><a href="#m5">search_for_a_char_Null</a></td><td rowspan="1">1615674150915</td><td rowspan="1">271</td></tr><tr class="passedodd"><td><a href="#m6">search_for_a_char_validdata</a></td><td rowspan="1">1615674157526</td><td rowspan="1">419</td></tr><tr class="passedeven"><td rowspan="3">swapi_tests.One_Specific_Starwars_Character</td><td><a href="#m7">TC_04_OneSpecific_StarWars_char_validInput</a></td><td rowspan="1">1615674135329</td><td rowspan="1">797</td></tr><tr class="passedeven"><td><a href="#m8">TC_05_OneSpecific_StarWars_char_InvalidInput</a></td><td rowspan="1">1615674136135</td><td rowspan="1">694</td></tr><tr class="passedeven"><td><a href="#m9">TC_06_OneSpecific_StarWars_char_NullInput</a></td><td rowspan="1">1615674136832</td><td rowspan="1">918</td></tr><tr class="passedodd"><td rowspan="2">swapi_tests.Search_for_Char_or_Planet</td><td><a href="#m10">TC_7_SearchFor_char_or_planet_validInput</a></td><td rowspan="1">1615674137756</td><td rowspan="1">735</td></tr><tr class="passedodd"><td><a href="#m11">TC_9_SearchFor_char_or_planet_NullInput</a></td><td rowspan="1">1615674139282</td><td rowspan="1">702</td></tr></tbody>
+</table>
+<h2>Swapi</h2><h3 id="m0">swapi_tests.Search_for_Char_or_Planet#TC_8_SearchFor_char_or_planet_InvalidInput</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [404] but found [200]
+	at swapi_tests.Search_for_Char_or_Planet.TC_8_SearchFor_char_or_planet_InvalidInput(Search_for_Char_or_Planet.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">swapi_tests.All_StarWars_Characters#TC_01_All_StarWars_char_validInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">swapi_tests.All_StarWars_Characters#TC_02_All_StarWars_char_InvalidInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">swapi_tests.All_StarWars_Characters#TC_03_All_StarWars_char_NullInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">swapi_tests.Functional_Tests#search_for_a_char_Invaliddata</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">swapi_tests.Functional_Tests#search_for_a_char_Null</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">swapi_tests.Functional_Tests#search_for_a_char_validdata</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">swapi_tests.One_Specific_Starwars_Character#TC_04_OneSpecific_StarWars_char_validInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">swapi_tests.One_Specific_Starwars_Character#TC_05_OneSpecific_StarWars_char_InvalidInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">swapi_tests.One_Specific_Starwars_Character#TC_06_OneSpecific_StarWars_char_NullInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">swapi_tests.Search_for_Char_or_Planet#TC_7_SearchFor_char_or_planet_validInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">swapi_tests.Search_for_Char_or_Planet#TC_9_SearchFor_char_or_planet_NullInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

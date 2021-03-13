@@ -1,0 +1,10 @@
+<suite name="Swapi API Testing">
+	<test name=" API testing">
+		<classes>
+			<class name="swapi_tests.All_StarWars_Characters" />
+			<class name="swapi_tests.One_Specific_Starwars_Character" />
+			<class name="swapi_tests.Search_for_Char_or_Planet" />
+			<class name="swapi_tests.Functional_Tests" />
+		</classes>
+	</test>
+</suite>

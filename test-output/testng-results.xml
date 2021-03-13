@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-13T17:22:10 EST" name="Swapi Test" finished-at="2021-03-13T17:22:38 EST" duration-ms="27517">
+    <groups>
+    </groups>
+    <test started-at="2021-03-13T17:22:10 EST" name="Swapi" finished-at="2021-03-13T17:22:38 EST" duration-ms="27517">
+      <class name="swapi_tests.One_Specific_Starwars_Character">
+        <test-method signature="TC_04_OneSpecific_StarWars_char_validInput()[pri:0, instance:swapi_tests.One_Specific_Starwars_Character@55b7a4e0]" started-at="2021-03-13T17:22:15 EST" name="TC_04_OneSpecific_StarWars_char_validInput" finished-at="2021-03-13T17:22:16 EST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_OneSpecific_StarWars_char_validInput -->
+        <test-method signature="TC_05_OneSpecific_StarWars_char_InvalidInput()[pri:0, instance:swapi_tests.One_Specific_Starwars_Character@55b7a4e0]" started-at="2021-03-13T17:22:16 EST" name="TC_05_OneSpecific_StarWars_char_InvalidInput" finished-at="2021-03-13T17:22:16 EST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_OneSpecific_StarWars_char_InvalidInput -->
+        <test-method signature="TC_06_OneSpecific_StarWars_char_NullInput()[pri:0, instance:swapi_tests.One_Specific_Starwars_Character@55b7a4e0]" started-at="2021-03-13T17:22:16 EST" name="TC_06_OneSpecific_StarWars_char_NullInput" finished-at="2021-03-13T17:22:17 EST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_OneSpecific_StarWars_char_NullInput -->
+      </class> <!-- swapi_tests.One_Specific_Starwars_Character -->
+      <class name="swapi_tests.Functional_Tests">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:19 EST" name="preConditions" finished-at="2021-03-13T17:22:25 EST" duration-ms="5604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="search_for_a_char_Invaliddata()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:25 EST" name="search_for_a_char_Invaliddata" finished-at="2021-03-13T17:22:25 EST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_for_a_char_Invaliddata -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:25 EST" name="tearDown" finished-at="2021-03-13T17:22:26 EST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:26 EST" name="preConditions" finished-at="2021-03-13T17:22:30 EST" duration-ms="4792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="search_for_a_char_Null()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:30 EST" name="search_for_a_char_Null" finished-at="2021-03-13T17:22:31 EST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_for_a_char_Null -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:31 EST" name="tearDown" finished-at="2021-03-13T17:22:31 EST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:31 EST" name="preConditions" finished-at="2021-03-13T17:22:37 EST" duration-ms="6125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="search_for_a_char_validdata()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:37 EST" name="search_for_a_char_validdata" finished-at="2021-03-13T17:22:37 EST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_for_a_char_validdata -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swapi_tests.Functional_Tests@192d43ce]" started-at="2021-03-13T17:22:37 EST" name="tearDown" finished-at="2021-03-13T17:22:38 EST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swapi_tests.Functional_Tests -->
+      <class name="swapi_tests.All_StarWars_Characters">
+        <test-method signature="TC_01_All_StarWars_char_validInput()[pri:0, instance:swapi_tests.All_StarWars_Characters@6eda5c9]" started-at="2021-03-13T17:22:10 EST" name="TC_01_All_StarWars_char_validInput" finished-at="2021-03-13T17:22:13 EST" duration-ms="3175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_All_StarWars_char_validInput -->
+        <test-method signature="TC_02_All_StarWars_char_InvalidInput()[pri:0, instance:swapi_tests.All_StarWars_Characters@6eda5c9]" started-at="2021-03-13T17:22:13 EST" name="TC_02_All_StarWars_char_InvalidInput" finished-at="2021-03-13T17:22:14 EST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_All_StarWars_char_InvalidInput -->
+        <test-method signature="TC_03_All_StarWars_char_NullInput()[pri:0, instance:swapi_tests.All_StarWars_Characters@6eda5c9]" started-at="2021-03-13T17:22:14 EST" name="TC_03_All_StarWars_char_NullInput" finished-at="2021-03-13T17:22:15 EST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_All_StarWars_char_NullInput -->
+      </class> <!-- swapi_tests.All_StarWars_Characters -->
+      <class name="swapi_tests.Search_for_Char_or_Planet">
+        <test-method signature="TC_7_SearchFor_char_or_planet_validInput()[pri:0, instance:swapi_tests.Search_for_Char_or_Planet@5f058f00]" started-at="2021-03-13T17:22:17 EST" name="TC_7_SearchFor_char_or_planet_validInput" finished-at="2021-03-13T17:22:18 EST" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_7_SearchFor_char_or_planet_validInput -->
+        <test-method signature="TC_8_SearchFor_char_or_planet_InvalidInput()[pri:0, instance:swapi_tests.Search_for_Char_or_Planet@5f058f00]" started-at="2021-03-13T17:22:18 EST" name="TC_8_SearchFor_char_or_planet_InvalidInput" finished-at="2021-03-13T17:22:19 EST" duration-ms="762" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [404] but found [200]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at swapi_tests.Search_for_Char_or_Planet.TC_8_SearchFor_char_or_planet_InvalidInput(Search_for_Char_or_Planet.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_8_SearchFor_char_or_planet_InvalidInput -->
+        <test-method signature="TC_9_SearchFor_char_or_planet_NullInput()[pri:0, instance:swapi_tests.Search_for_Char_or_Planet@5f058f00]" started-at="2021-03-13T17:22:19 EST" name="TC_9_SearchFor_char_or_planet_NullInput" finished-at="2021-03-13T17:22:19 EST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_9_SearchFor_char_or_planet_NullInput -->
+      </class> <!-- swapi_tests.Search_for_Char_or_Planet -->
+    </test> <!-- Swapi -->
+  </suite> <!-- Swapi Test -->
+</testng-results>

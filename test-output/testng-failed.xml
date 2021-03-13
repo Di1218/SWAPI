@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Swapi Test]">
+  <listeners>
+    <listener class-name="extentReport.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Swapi(failed)">
+    <classes>
+      <class name="swapi_tests.Search_for_Char_or_Planet">
+        <methods>
+          <include name="TC_8_SearchFor_char_or_planet_InvalidInput"/>
+        </methods>
+      </class> <!-- swapi_tests.Search_for_Char_or_Planet -->
+    </classes>
+  </test> <!-- Swapi(failed) -->
+</suite> <!-- Failed suite [Swapi Test] -->
